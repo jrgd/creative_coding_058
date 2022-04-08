@@ -1,0 +1,36 @@
+:+todo save file = refresh the tag list, refresh the file list (new file?), probably also would refresh the operator list as well  
+  
+:+note having operators sprinkled as I type removes the brain effort to find the right place to organise these, I delegate somehow some of the organisation tasks to the software. This is probably not going to work as I expect. It records however the train of thoughts in a simple manner; but is the train of thoughts so relevant to the Information Pipeline project? I remember one of the experiment capturing the line contains a specific operator (todo, note) and moving its content to a specific file inside a ./data folder. However some operators are recording meta-information, while other are actionnable — how can we make it easily use-able.
+
+:+todo parse operators in all documents; list operators like tags; returns a list of operators, the line text-content, the containing file, needs to have a standard list of operators, something to be documented. #operators   
+  
+:+todo autocomplete type {(\[ to get {}()\[\]; select and type \[{( to wrap \[{()}\] around the text - ie: not replace the selected text   
+  
+:+todo there is a bug with tabs/lists when copy pasting operator-starting line(s)   
+  
+:+todo test how formatting of text saved is preserved (paragraph, line break, etc.) see the differences of the various Markdown GFM, MarkdownExtra, etc.   
+  
+:+todo navigate files list with keyboard (tab to select, return to open)   
+:+todo save as html, save as md, save as text - check on file extension; this will be useful for a code editor as well   
+  
+:+todo code editor → syntax colouring   
+  
+:+todo sass preprocessing for stylesheet   
+  
+:+todo autosave, every xx seconds, also when switching focus - need to allow for script-execution-time (opening a file that will replace: check if write completed—somehow) #basic #feature   
+  
+:+todo ability to write and edit code - what would be the minimum feature? #mise\_en\_abime   
+  
+:+todo tags list is missing context; should have a text excerpt after the file name #context #interface   
+  
+:+todo open document from the tags list panel should open the document with the tag highlighted and the curse positioned on the word #tag   
+  
+:+todo add comments, edit suggestions, notes, etc. → a special :+operator? #operator   
+  
+:+todo tag autocompletion in the text editor   
+  
+:+done save shortcut; capture the key and save the doc #basic   
+:+done create new document #basic   
+:+done text saved contains html; should use markdown for better portability #basic   
+:+done preserve line breaks   
+:+done file list : deal with folders summary/details…
