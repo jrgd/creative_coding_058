@@ -14,3 +14,9 @@ ie: notes to future-self, in a few months.
 - ```composer install```
 - ```valet link writingthinking```
 - and then use a browser to visit the page writingthinking.test
+
+*Documentation*
+Operators and meta/headers for txt and markdown files
+
+*Thinking behind the project*
+This takes place directly in the ./documents 

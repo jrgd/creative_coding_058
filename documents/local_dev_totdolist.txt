@@ -1,7 +1,9 @@
-:+todo save file = refresh the tag list, refresh the file list (new file?), probably also would refresh the operator list as well  
+:+todo create new file: insert immediately basic header meta data :+id and :+creation-date; create new file should have: test if file exists already; make the filename standard; keep the original file name in the meta data; the id (base64 hash with file name and date; creation date as a timestamp)  
   
-:+note having operators sprinkled as I type removes the brain effort to find the right place to organise these, I delegate somehow some of the organisation tasks to the software. This is probably not going to work as I expect. It records however the train of thoughts in a simple manner; but is the train of thoughts so relevant to the Information Pipeline project? I remember one of the experiment capturing the line contains a specific operator (todo, note) and moving its content to a specific file inside a ./data folder. However some operators are recording meta-information, while other are actionnable — how can we make it easily use-able.
-
+:+todo save file = refresh the tag list, refresh the file list (new file?), probably also would refresh the operator list as well   
+  
+:+note having operators sprinkled as I type removes the brain effort to find the right place to organise these, I delegate somehow some of the organisation tasks to the software. This is probably not going to work as I expect. It records however the train of thoughts in a simple manner; but is the train of thoughts so relevant to the Information Pipeline project? I remember one of the experiment capturing the line contains a specific operator (todo, note) and moving its content to a specific file inside a ./data folder. However some operators are recording meta-information, while other are actionnable — how can we make it easily use-able.   
+  
 :+todo parse operators in all documents; list operators like tags; returns a list of operators, the line text-content, the containing file, needs to have a standard list of operators, something to be documented. #operators   
   
 :+todo autocomplete type {(\[ to get {}()\[\]; select and type \[{( to wrap \[{()}\] around the text - ie: not replace the selected text   
