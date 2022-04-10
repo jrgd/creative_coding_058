@@ -153,7 +153,8 @@
         </div>
         <hr>
         <div id='meta_content_container'>
-          <div id='meta_content'>meta</div>
+          <b>Meta</b>
+          <div id='meta_content'></div>
         </div>
         <hr>
         <div id='search_container'>

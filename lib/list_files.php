@@ -20,8 +20,7 @@ function parse_directory($dir) {
         echo "</details>";
       } 
       if (is_file($dir.'/'.$single_item)) {
-        $tabindex = $key + 1;
-        echo "<a href='{$dir}/$single_item' tabindex='{$tabindex}'>$single_item</a><br>";
+        echo "<a href='{$dir}/$single_item'>$single_item</a><br>";
       }
 
     } else {
