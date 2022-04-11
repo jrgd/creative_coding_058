@@ -1,0 +1,23 @@
+:+id Li9kb2N1bWVudHMvbm90ZXMgb24gaW50ZXJhY3Rpb25zIHdpdGggdGV4dHMtLTE2NDk2ODEzNTI=   
+:+date-creation 1649681352   
+:+file-name notes on interactions with texts   
+  
+a set of features I most appreciate when working with text   
+  
+press return; check if the beginning of the current line starts with any number of double spaces; if yes reproduce the indentation on the next line; if line with starts with a '-', start the next line with the same '-'   
+  
+when test is selected and there is a key press; if the key is any of \_ \* \[ { ( then will wrap the selected text with opening and closing characters   
+  
+ability to open two documents side by side   
+  
+ability to fold sections either using details/summary or indentation-fold   
+  
+search-replace-in-folder   
+  
+vertical selection, multiple editing point: ideal when working with tabled data, lists, etc.   
+  
+playlist of document, grouped around a topic; multiple opened documents in tabs? when editing and gathering data - use the tabs of the browser? write the file name in the window title so it appears in the tab bar
+
+at the moment The Writer works with a single HTML element with contentEditable=true; it works fine but I like the idea developed by Notion in which a single line is a block/document in itself with eventually its own id; that would help inserting documents that are not text and also customise styling; it would simplify the structure for the folding blocks, the code blocks etc.
+
+It would require refactoring the base HTML page and some of the javascript logic.
