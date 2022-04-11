@@ -166,6 +166,10 @@
           <div id='tags_content' class='file_list'></div>
         </div>
         <hr>
+        <div id='links_container'>
+          <div id='links_content' class='file_list'></div>
+        </div>
+        <hr>
       </div>
     </div>
 
