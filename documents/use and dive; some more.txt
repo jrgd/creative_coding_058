@@ -1,3 +1,5 @@
+:+id Li9kb2N1bWVudHMvdXNlIGFuZCBkaXZlOyBzb21lIG1vcmUudHh0LS0xNjQ5NjQxMTM0OTIz   
+  
 Use and dive, some more.   
 =============   
   
@@ -5,53 +7,47 @@ I'm writing this file inside the text editor I'm building.
 I'm writing this file and it is part of the process of writing this software.   
 I'm writing this file to explain my thinking, to myself and to you too, reader.   
   
-I'm writing this file as an opening to next set of features I would like to work on.  
-I'm writing this file to lay down elements of the parser.  
+I'm writing this file as an opening to next set of features I would like to work on.   
+I'm writing this file to lay down elements of the parser.   
   
-For each file, there are a minimum amount of data needed to feed the document in the system. It ressembles a file header or a deconstructed database of sort. It's loosely based on org-mode and org-roam.
-
-Creating a new file should immediately populate the base header.
-
-If opening a file without those data, the right/left hand panel should offer to fill these.
-
+For each file, there are a minimum amount of data needed to feed the document in the system. It ressembles a file header or a deconstructed database of sort. It's loosely based on org-mode and org-roam.   
   
-
-
-Meanwhile, the parser should continuously parse the content of the documents and extract data.
-
-It should fetch content on operators and dispatch their information accordingly.
-
-Some data/line content should be cut from the origin document; some should stay in place.
-
-Stable
-
-\- :+id
-
-\- :+anchor
-
-\- :+date-creation
-
-Transfer
-
-\- :+todo
-
-\- :+done
-
-\---
-
+Creating a new file should immediately populate the base header.   
+  
+If opening a file without those data, the data should be inserted; when those data require human interactions, the right/left hand panel should offer to fill a form.   
+  
+Meanwhile, the parser should continuously parse the content of the documents folder.   
+  
+It should fetch content on operators and dispatch their information accordingly, eventually extracting data either to their planned destination files/data store.   
+  
+Some data/line content should be cut from the origin document; some should stay in place.   
+  
+Stable   
+  
+\- :+id   
+\- :+anchor   
+\- :+date-creation   
+  
+Transfer   
+  
+\- :+todo   
+\- :+done   
+  
+\---   
+  
 A list of operators, considered for the   
-:+tags #metadata #operators
-
-:+todo
-
-:+done
-
-:+id
-
-:+anchor
-
-:+date-creation
-
-TBC
-
+:+tags #metadata #operators   
+  
+:+todo   
+  
+:+done   
+  
+:+id   
+  
+:+anchor   
+  
+:+date-creation   
+  
+TBC   
+  
 :+link-id

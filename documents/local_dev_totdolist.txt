@@ -1,4 +1,7 @@
-:+todo create new file: insert immediately basic header meta data :+id and :+creation-date; create new file should have: test if file exists already; make the filename standard; keep the original file name in the meta data; the id (base64 hash with file name and date; creation date as a timestamp)  
+:+id Li9kb2N1bWVudHMvbG9jYWxfZGV2X3RvdGRvbGlzdC50eHQtLTE2NDk2NDIxNTE0MzI=  
+  
+:+todo save current file when opening a new file so as no to loose any edits on the content   
+:+todo create new file: insert immediately basic header meta data :+id and :+creation-date; create new file should have: test if file exists already; make the filename standard; keep the original file name in the meta data; the id (base64 hash with file name and date; creation date as a timestamp)   
   
 :+todo save file = refresh the tag list, refresh the file list (new file?), probably also would refresh the operator list as well   
   
